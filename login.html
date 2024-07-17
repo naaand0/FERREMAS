@@ -1,0 +1,116 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.91.2">
+  <title>Makween</title>
+  
+  <link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+  <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+  <meta name="theme-color" content="#7952b3">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+  
+  <link href="signin.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./index.html"><img src="./img/FERREMAS.png" width="50" height="50" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">FERREMAS <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html" style="color: rgba(243, 243, 18, 0.79)"> <strong> Iniciar Sesión</strong> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./registro.html" style="color:rgba(243, 243, 18, 0.79)"><strong> Registrarse</strong></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./subscripcion.html" style="color: blue rgba(243, 243, 18, 0.79);">SUBSCRIBIRTE A OFERTAS <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Busca Personalizada" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+    <div class="container">
+  <main class="form-signin">
+  <form>
+  <img class="mb-4" src="./img/FERREMAS.png" alt="" width="100" height="100">
+  <h1 class="h3 mb-3 fw-normal">Por favor ingresa</h1>
+  <div class="form-floating">
+    <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" onblur="ValidateEmail(emailInput)">
+    <label for="emailInput" >Correo electrónico </label>
+    </div>
+  <div class="form-floating">
+  <input type="password" class="form-control" id="text" placeholder="Contraseña">
+  <label for="password">Contraseña</label>
+  </div>
+  <hr class="featurette-divider">
+
+  <a class="btn btn-primary" href="./index.html" role="button">Iniciar Sesión</a>
+  <p class="mt-5 mb-3 text-muted">©2024</p>
+  </form>
+  </main>
+</div>
+
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+  <p class="fs-5 px-3  pt-3">FERREMAS &copy; Todos Los Derechos Reservados 2024</p>
+  <div id="iconos" >
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>  
+  </div>
+  </footer>
+  
+<script>
+  function ValidateEmail(input) {
+
+    var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@+(gmail.com|duocuc.cl)$/;
+  
+    if (!input.value.match(validRegex)) {
+  
+      alert("Invalid email address!");
+  
+      document.form1.text1.focus();
+  
+      return false;
+  
+    }
+  
+  } 
+</script> 
+  
+  </body></html>

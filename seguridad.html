@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipos de Seguridad</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
+            
+        <title>Signin Template for Bootstrap</title>
+    
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./css/main.css">
+</head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html"><img src="./img/FERREMAS.png" width="50" height="50" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">FERREMAS <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html" style="color: rgba(243, 243, 18, 0.79)"> <strong> Iniciar Sesión</strong> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./registro.html" style="color:rgba(243, 243, 18, 0.79)"><strong> Registrarse</strong></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-cart-check"></i> Productos
+                </a>
+                <div class="dropdown-menu" id="carrito">
+                    <table class="table table-striped table-hover" id="lista-carrito">
+                        <thead>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+                    <a href="#" id="vaciar-carrito" class="btn btn-sm btn-danger">Vaciar Carrito</a>
+                </div>
+            </li>
+             
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Busca Personalizada" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+          </div>
+        </nav>
+          <div class="container py-5" id="lista-cursos">
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+    
+                <div class="col">
+                    <div class="card">
+                        <img src="./img/guantes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">GARDENA</h5>
+                          <p class="card-text"> Guante Jardin gardena T.8</p>
+                          <p class="precio">$9.990</p>
+                          <a href="#" class="btn btn-primary agregar-carrito" data-id="7">Comprar</a>
+                        </div>
+                     
+                        <div class="mb-5 d-flex justify-content-around">
+                            
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card">
+                        <img src="./img/lentes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">DEWALT</h5>
+                          <p class="card-text"> Lentes de seguridad negros</p>
+                          <p class="precio">$10.990</p>
+                          <a href="#" class="btn btn-primary agregar-carrito" data-id="8">Comprar</a>
+                        </div>
+                     
+                        <div class="mb-5 d-flex justify-content-around">
+                           
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card">
+                        <img src="./img/traje.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">FG SAFETY</h5>
+                          <p class="card-text"> Abrigo impermeable talla XL azul</p>
+                          <p class="precio">$11.990</p>
+                          <a href="#" class="btn btn-primary agregar-carrito" data-id="9">Comprar</a>
+                        </div>
+
+                        <div class="mb-5 d-flex justify-content-around">
+                       
+                        </div>
+                    </div>
+            </body>
+
+
+            <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+                <p class="fs-5 px-3  pt-3">FERREMAS &copy; Todos Los Derechos Reservados 2024</p>
+                <div id="iconos" >
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>  
+                </div>
+                </footer>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+                <script src="carrito.js"></script>
+</html>
